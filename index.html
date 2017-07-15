@@ -213,6 +213,8 @@
  
 <body class="home page-template page-template-template-home page-template-template-home-php page page-id-8 smooth-scroll preloader wpb-js-composer js-comp-ver-4.11.2.1 vc_responsive" >
  	<!--/navbar start-->
+ 	<!-- desktop nav -->
+ 	<div class="navbar-default hidden-xs">
  	<header class="jx-evont-header jx-header-1 header jx-evont-sticky">
 	    <nav class="navbar navbar-default  navbar-fixed-top">
 	      	<div class="container relative">
@@ -251,6 +253,86 @@
 	      	<!-- /.container-fluid -->
 	    </nav>
   	</header>
+  	</div>
+  	<!-- mobile nav -->
+  	<div class="navbar-static-top visible-xs-block">
+       <style>
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFB379;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #FFB379;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+</style>
+
+
+<div class="topnav" id="myTopnav" style="background-image: ">
+<a href="#" class="navbar-brand standard-logo">
+		          		<img src="images/logo.png" alt=""/>
+		          	</a>
+  <a href="#about">About Us</a>
+  <a href="#speaker">Speakers</a>
+  <a href="#program">Programs</a>
+  <a href="sponsors.html">Sponsors</a>
+<a href="register.html">Register</a>
+<a href="team.html">Team</a>
+<a href="#contact">Contact</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+  	</div>
+  	<!-- mobile nav end -->
   	<!--/navbar end-->
 
   	<!--header start-->
