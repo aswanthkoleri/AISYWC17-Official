@@ -9424,3 +9424,108 @@ padding: 0px 16px 0px 20px;
     margin: 0 auto;
     margin-top: 12px;
     margin-bottom: 8px;
+}
+
+.our-team{
+    text-align: center;
+    overflow: hidden;
+    padding: 40px 15px 10px;
+    border: 1px solid #ebebeb;
+    transition:all 0.3s ease 0s;
+}
+.pic img{
+    border: 10px solid #f8f8f8;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+    width:  170px;
+    height: 170px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size: cover;
+}
+.post-title{
+    position: relative;
+    margin: 38px 0 18px 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#333;
+}
+.border{
+    width: 100px;
+    border-bottom: 3px solid #37cfd7;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s ease 0s;
+}
+.border:after{
+    content: "";
+    width: 34px;
+    display: block;
+    position: relative;
+    top:3px;
+    border-bottom: 3px solid orange;
+    margin: auto;
+}
+.post{
+    overflow: hidden;
+    display: block;
+    margin-top: 20px;
+    font-size: 13px;
+    color:#999;
+    text-transform: capitalize;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+.team_social{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.team_social > li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.team_social > li:last-child{
+    margin-right: 0;
+}
+.team_social > li > a{
+    font-size: 15px;
+    font-weight: 400;
+    color:#333;
+    transition: all 0.3s ease 0s;
+}
+.team_social > li > a:hover{
+    color:#fff;
+}
+.our-team:hover{
+    background: #1fb5f6;
+    padding-bottom: 30px;
+}
+.our-team:hover .pic img{
+    border-color: orange;
+}
+.our-team:hover .border{
+    border-color: #F43662;
+}
+.our-team:hover .border:after{
+    border-color: #fff;
+}
+.our-team:hover .post{
+    margin-top: 0;
+    opacity: 0;
+}
+.our-team:hover .team_social{
+    opacity: 1;
+    bottom: 0;
+}
+@media screen and (max-width: 990px){
+    .our-team{
+        margin-bottom: 30px;
+    }
+}
+
