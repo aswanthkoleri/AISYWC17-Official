@@ -1710,35 +1710,27 @@ float:left;
 	margin-bottom: 50px;
 }
 .mainBtn {
-	height:44px;
-	background:#2e2841;
-	border:0;
-	font-size:17px;
-	line-height:30px;
-	letter-spacing:0.5px;
+  height:44px;
+  background:#2e2841;
+  border:0;
+  font-size:17px;
+  line-height:30px;
+  letter-spacing:0.5px;
  transition: .4s;
-	color:#fff;
-	padding-left:25px !important;
-	padding-right:25px !important;
-	border: solid 0 #fff;
-	border-radius:5px;
+  color:#fff;
+  padding-left:25px !important;
+  padding-right:25px !important;
+  border: solid 0 #fff;
+  border-radius:5px;
  transition: .4s;
-	font-family: 'Raleway';
-	font-weight:700;
+  font-family: 'Raleway';
+  font-weight:700;
 }
 .mainBtn:hover {
-	background:#fff300;
+  background:orange;
  transition: .4s;
-	color:#000;
+  color:#000;
  transition: .4s;
-}
-.video {
-	position: relative;
-	padding-bottom: 56.25%;
-	height: 0;
-	overflow: hidden;
-	border: none;
-	border-radius:20px;
 }
 .video iframe, .video object, .video embed {
 	position: absolute;
@@ -4682,7 +4674,7 @@ border-right: none;
 
 
 .jx-big-date{
-  font-size: 413px;
+font-size: 150px;
 color: #fff;
 font-family: 'lato';
 font-weight: 600;
@@ -4699,35 +4691,43 @@ margin-left: -15px;
   font-size:150px;
   line-height: 1;
   font-weight:bold;
-	padding-top:27px;
+  padding-top:27px;
 }
 
-.jx-month-small .slider-year{
+.jx-month-small {
   color:#fff;
   font-family:'Oswald';
-  font-size:175px;
+  font-size:120px;
   line-height: 0.7;
   font-weight:bold;
-	padding-top:27px;
+  padding-top:20px;
+}
+.slider-year{
+  color:#fff;
+  font-family:'Oswald';
+  font-size:120px;
+  line-height: 0.7;
+  font-weight:bold;
+  padding-top:50px;
 }
 
 .jx-month-small .event-title{
 
 
-	color: #000;
-	font-size: 50px;
-	font-family: 'Oswald';
-	font-weight: 500;
-	text-transform: uppercase;
-	background: #fff300;
-	line-height: 1;
-	padding: 15px 80px 15px 30px;
-	margin-top: 50px;
-	display: block;
-	position: absolute;
-	left: 50%;
-	width: 180%;
-	margin-left: -45px;
+  color: #000;
+  font-size: 50px;
+  font-family: 'Oswald';
+  font-weight: 500;
+  text-transform: uppercase;
+  background: #fff300;
+  line-height: 1;
+  padding: 15px 80px 15px 50px;
+  margin-top: 50px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  width: 180%;
+  margin-left: -45px;
 }
 
 
@@ -4758,7 +4758,7 @@ margin-left: -15px;
     left: 82%;
     width: 100%;
     margin-left: -45px;
-	transition: .3s all ease-out;
+  transition: .3s all ease-out;
 }
 
 .jx-month-small .event-ticket-btn:hover {
@@ -4774,15 +4774,15 @@ margin-left: -15px;
 }
 
 .jx-evont-shadow{
-	background-image: url('images/shadow.png');
+  background-image: url('images/shadow.png');
 background-repeat: no-repeat;
 position: absolute;
 top: -53px;
 left: -107px;
-width: 533px;
+width: 200px;
 height: 467px;
 }
-	
+  
 
 /* Style -2 */
 .jx-event-date {
@@ -4807,7 +4807,7 @@ height: 467px;
 }
 
 .jx-event-date .slider-month{
-  font-size:108px;
+  font-size:39px;
   font-family:'oswald';
   color:#000;
   font-weight:600;  
@@ -4822,7 +4822,7 @@ height: 467px;
   text-transform: uppercase;
   padding-top:20px;
   text-shadow: 0 0 10px rgba(0,0,0,0.8);
-}		
+}   
 
 .jx-evont-count-days .event-ticket-btn{
   font-size:40px;

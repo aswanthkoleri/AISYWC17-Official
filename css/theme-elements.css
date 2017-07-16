@@ -20,7 +20,7 @@
 		color:#000;
 		margin:0;
 		text-transform: uppercase;
-		background: #fff300;
+		background: orange;
 		display: inline-block;
 		margin-bottom: 20px;
 		padding: 3px 23px;
@@ -1568,7 +1568,6 @@
 	}
 	.jx-evont-tagline-section .jx-evont-heading .number {
 		float:left;
-	
 		font-size:147px;
 		font-family: 'Oswald', sans-serif;
 		color:#e21d47;
@@ -1576,20 +1575,42 @@
 		margin-right:5px;
 		font-weight: 600;
 	}
-	.jx-evont-tagline-section .jx-evont-heading .txt-1 {
+	.jx-evont-tagline-section .jx-evont-heading {
 	font-size: 45px;
-	font-family: 'Raleway';
+	font-family: 'Roboto';
 	font-weight: 700;
 	color: #32ac49;
 	line-height: 1.1;
 	margin-top: 5px;
 	display: block;
 	}
-	.jx-evont-tagline-section .jx-evont-heading .txt-2 {
+	.txt-1 {
+	font-size: 45px;
+	text-align:center;
+	font-family: 'Roboto';
+	font-weight: 600;
+	color: #32ac49;
+	line-height: 1.1;
+	margin-top: 3px;
+	
+	display: block;
+	}
+	.jx-evont-tagline-section .jx-evont-heading  {
 	font-size: 42px;
-	font-family: 'Raleway';
-	font-weight: 800;
-
+	font-family: 'Roboto';
+	font-weight: 600;
+	color: #1b96b4;
+	text-align:center;
+	line-height: normal;
+	line-height: 40px;
+	}
+	.txt-2 {
+	font-size: 42px;
+	margin-top: 5px;
+	margin-bottom:5px;
+	font-family: 'Roboto';
+	font-weight: 600;
+	text-align:center;
 	color: #1b96b4;
 	line-height: normal;
 	line-height: 40px;
@@ -1600,7 +1621,7 @@
 	.jx-evont-tagline-section p {
 		font-size:16px;
 		color:#333333;
-		font-family: 'Raleway';
+		font-family: 'Roboto';
 	}
 	 @media only screen and (max-width: 767px) {
 	 .jx-evont-tagline-section .jx-evont-heading .number {

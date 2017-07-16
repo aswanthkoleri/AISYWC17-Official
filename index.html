@@ -215,122 +215,132 @@
  	<!--/navbar start-->
  	<!-- desktop nav -->
  	<div class="navbar-default hidden-xs">
- 	<header class="jx-evont-header jx-header-1 header jx-evont-sticky">
-	    <nav class="navbar navbar-default  navbar-fixed-top">
-	      	<div class="container relative">
-	     		<!-- Brand and toggle get grouped for better mobile display -->
-		        <div class="navbar-header">
-		          	<a href="#" class="navbar-brand standard-logo">
-		          		<img src="images/logo.png" alt=""/>
-		          	</a>
-		            <!-- EOF Retina -->                    
-		        </div>
-	        	<!-- Collect the nav links, forms, and other content for toggling -->
-	        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<div class="menu-main-menu-container">
-						<ul id="menu-main-menu"class="jx-evont-mainmenu navbar-right">
-							<li id="menu-item-1459">
-								<a href="#about">ABOUT US</a>
-							</li>
-							<li id="menu-item-1459" >
-								<a href="#speaker">SPEAKERS</a>
-							</li>
-							<li id="menu-item-2218" style="font-size:14px;color:black">
-								<a href="#program">PROGRAMS</a>
-							</li>
-							<li id="menu-item-2218" ><a href="sponsors.html">SPONSORS</a></li>
-							<li id="menu-item-256" ><a href="register.html">REGISTER</a>
-							</li>
-							<li id="menu-item-256"><a href="team.html">TEAM</a>
-							</li>
-							<li id="menu-item-256"><a href="#contact">CONTACT</a>
-							</li>
-						</ul>
-					</div>                
-	        	</div>
-	        	<!-- /.navbar-collapse -->
-	      	</div>
-	      	<!-- /.container-fluid -->
-	    </nav>
-  	</header>
+	 	<header class="jx-evont-header jx-header-1 header jx-evont-sticky">
+		    <nav class="navbar navbar-default  navbar-fixed-top">
+		      	<div class="container relative">
+		     		<!-- Brand and toggle get grouped for better mobile display -->
+			        <div class="navbar-header">
+			          	<a href="#" class="navbar-brand standard-logo">
+			          		<img src="images/logo.png" alt=""/>
+			          	</a>
+			            <!-- EOF Retina -->                    
+			        </div>
+		        	<!-- Collect the nav links, forms, and other content for toggling -->
+		        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="menu-main-menu-container">
+							<ul id="menu-main-menu"class="jx-evont-mainmenu navbar-right">
+								<li id="menu-item-1459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children no-mega 4">
+									<a href="#about">ABOUT US</a>
+									<ul class="submenu">
+										<li class="col">
+											<ul>
+												<li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page no-mega 0"><a href="#aisywc17">AISYWC17</a></li>
+												<li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page no-mega 0"><a href="#venue">VENUE</a></li>
+												<li id="menu-item-2216" class="menu-item menu-item-type-custom menu-item-object-custom no-mega 0"><a href="about.html#india_council">IEEE India Council</a></li>
+												<li id="menu-item-2216" class="menu-item menu-item-type-custom menu-item-object-custom no-mega 0"><a href="about.html#upsection">IEEE UP Section</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li id="menu-item-1459" >
+									<a href="#speaker">SPEAKERS</a>
+								</li>
+								<li id="menu-item-2218" style="font-size:14px;color:black">
+									<a href="#program">PROGRAMS</a>
+								</li>
+								<li id="menu-item-2218" ><a href="sponsors.html">SPONSORS</a></li>
+								<li id="menu-item-256" ><a href="register.html">REGISTER</a>
+								</li>
+								<li id="menu-item-256"><a href="team.html">TEAM</a>
+								</li>
+								<li id="menu-item-256"><a href="#contact">CONTACT</a>
+								</li>
+							</ul>
+						</div>                
+		        	</div>
+		        	<!-- /.navbar-collapse -->
+		      	</div>
+		      	<!-- /.container-fluid -->
+		    </nav>
+	  	</header>
   	</div>
+  	<!--header end-->
   	<!-- mobile nav -->
   	<div class="navbar-static-top visible-xs-block">
-       <style>
+        <style>
 
-.topnav {
-  overflow: hidden;
-  background-color: #FFB379;
-}
+			.topnav {
+			  overflow: hidden;
+			  background-color: #FFB379;
+			}
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+			.topnav a {
+			  float: left;
+			  display: block;
+			  color: #f2f2f2;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size: 17px;
+			}
 
-.topnav a:hover {
-  background-color: #FFB379;
-  color: black;
-}
+			.topnav a:hover {
+			  background-color: #FFB379;
+			  color: black;
+			}
 
-.topnav .icon {
-  display: none;
-}
+			.topnav .icon {
+			  display: none;
+			}
 
-@media screen and (max-width: 1000px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
+			@media screen and (max-width: 1000px) {
+			  .topnav a:not(:first-child) {display: none;}
+			  .topnav a.icon {
+			    float: right;
+			    display: block;
+			  }
+			}
 
-@media screen and (max-width: 1000px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+			@media screen and (max-width: 1000px) {
+			  .topnav.responsive {position: relative;}
+			  .topnav.responsive .icon {
+			    position: absolute;
+			    right: 0;
+			    top: 0;
+			  }
+			  .topnav.responsive a {
+			    float: none;
+			    display: block;
+			    text-align: left;
+			  }
 
-}
-</style>
+			}
+		</style>
 
 
-<div class="topnav" id="myTopnav" style="background-image: ">
-<a href="#" class="navbar-brand standard-logo">
-		          		<img src="images/logo.png" alt=""/>
-		          	</a>
-  <a href="#about">About Us</a>
-  <a href="#speaker">Speakers</a>
-  <a href="#program">Programs</a>
-  <a href="sponsors.html">Sponsors</a>
-<a href="register.html">Register</a>
-<a href="team.html">Team</a>
-<a href="#contact">Contact</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
-
+				<div class="topnav" id="myTopnav" style="background-image: ">
+					<a href="#" class="navbar-brand standard-logo">
+							          		<img src="images/logo.png" alt=""/>
+							          	</a>
+					  <a href="#about">About Us</a>
+					  <a href="#speaker">Speakers</a>
+					  <a href="#program">Programs</a>
+					  <a href="sponsors.html">Sponsors</a>
+					<a href="register.html">Register</a>
+					<a href="team.html">Team</a>
+					<a href="#contact">Contact</a>
+					  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+				</div>
+				<script>
+				function myFunction() {
+				    var x = document.getElementById("myTopnav");
+				    if (x.className === "topnav") {
+				        x.className += " responsive";
+				    } else {
+				        x.className = "topnav";
+				    }
+				}
+				</script>
   	</div>
   	<!-- mobile nav end -->
   	<!--/navbar end-->
@@ -401,7 +411,7 @@ function myFunction() {
 							<div class="jx-evont-title-1 jx-light">	
 								<div class="row text-center">
 									<div class="col-md-12">
-										<h1 class="common-title wow fadeIn">[ ABOUT US ]</h1><br><br><br>
+										<h1 class="common-title wow fadeIn">[ ABOUT US ]</h1>
 									</div>
 								</div>	
 							</div>
@@ -410,7 +420,7 @@ function myFunction() {
 									<div class="vc_column-inner">	
 										<div class="wpb_wrapper">
 											<!-- Tagline START -->
-											<div class="jx-evont-tagline-section  ">
+											<div class="jx-evont-tagline-section  " id="aisywc17">
 												<div class="row">
 													<div class="jx-evont-heading">
 														<div class="jx-evont-main-heading"> 
@@ -418,8 +428,8 @@ function myFunction() {
 														</div>
 														<div class="clearfix"></div>
 													</div>
-													<p>AISYWC 2017 is going to be the another successful instance of the event started by IEEE India Council years back. This year the Congress comes with the theme<b><span class="orange">“Evolve, Enlighten, Empower”</b></span> throwing light on the fact that in the last 10 years of human-advancement, the technology has evolved more than been innovated. None has created a flying car yet, but the cars on road have evolved to a better version of itself. No unbreakable cellphones have been devised, but the already existing ones are becoming more and more robust and secure everyday.</p>
-													<p>AISYWC’17 will be the source through we will be enlightened about the vast ocean of opportunities and possibilities we have open in front of us, which can be utilised to improve the existing technology in use</p>
+													<p>AISYWC 2017 is going to be the another successful instance of the event started by IEEE India Council years back. This year the Congress comes with the theme<b><span class="orange">“Evolve, Enlighten, Empower”</b></span> throwing light on the fact that in the last 10 years of human-advancement, the technology has evolved more than been innovated. None has created a flying car yet, but the cars on road have evolved to a better version of itself. No unbreakable cellphones have been devised, but the already existing ones are becoming more and more robust and secure everyday.<br>
+													AISYWC’17 will be the source through we will be enlightened about the vast ocean of opportunities and possibilities we have open in front of us, which can be utilised to improve the existing technology in use</p>
 
 													<div class="space40"></div>
 													<a class="btn btn-default mainBtn" href="about.html">KNOW MORE</a>
@@ -434,17 +444,17 @@ function myFunction() {
 									<div class="vc_column-inner">
 										<div class="wpb_wrapper">
 											<!-- Tagline START -->
-											<div class="jx-evont-tagline-section  ">
+											<div class="jx-evont-tagline-section " id="#venue">
 												<div class="row">
 													<div class="jx-evont-heading"> 
 														<div class="jx-evont-main-heading"> 
-															<span class="txt-2">VENUE</span> 
+															<span class="txt-2">VENUE</span><br>
 														</div>
 														<div class="clearfix"></div>
 													</div>
 													<p><span class="orange"><b>Indian Institute of Information Technology, Allahabad (IIIT-Allahabad)</b></span> is a public university located in Allahabad, in Uttar Pradesh,India. It is one of the five Indian Institutes of Information Technology funded by the Ministry of Human Resource Development.
-													The Institution was founded in 1999, and in the following year received university status and the right to award its own degrees. In 2014 the IIIT Act was passed, under which IIITA and four other Institutes of Information Technology funded by the Ministry of Human Resource Development were classed as Institutes of National Importance.</p>
-													<p>The Institute is known for its excellence in fields of IT education, with the best of infrastructure and atmosphere that helps the students to grow and learn.
+													The Institution was founded in 1999, and in the following year received university status and the right to award its own degrees. In 2014 the IIIT Act was passed, under which IIITA and four other Institutes of Information Technology funded by the Ministry of Human Resource Development were classed as Institutes of National Importance.<br>
+													The Institute is known for its excellence in fields of IT education, with the best of infrastructure and atmosphere that helps the students to grow and learn.
 													</p>
 													<div class="space40"></div>
 													<a class="btn btn-default mainBtn" href="venue.html">KNOW MORE</a>
@@ -865,8 +875,8 @@ function myFunction() {
 								<h6 class="widget-title"> </h6>
 								<div class="jx-evont-contact-detail style-1">
 									<ul>
-										<li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:info@evont.com"> example@iiita.ac.in</a></li>
-										<li><i class="fa fa-phone" aria-hidden="true"></i> 9169745241</li>
+										<li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="ieee.sb@iiita.ac.in">ieee.sb@iiita.ac.in</a></li>
+										<li><i class="fa fa-phone" aria-hidden="true"></i>0532 292 2067</li>
 										<li><i class="fa fa-map-marker" aria-hidden="true"></i>IIIT ALLAHABAD</li>
 										<li><i class="fa fa-users" aria-hidden="true"></i> IEEE UP SECTION</li>
 									</ul>
@@ -874,9 +884,6 @@ function myFunction() {
 							</div>
 						</div>
 					</div>
-	                <div class="jx-evont-social wow flipInX">
-	                    
-	                </div>
 				</div>
 	            <!--about us section end-->
 	            <!--map section start-->
@@ -910,7 +917,7 @@ function myFunction() {
 	                				<span class="evont-widget-second">Gallery</span> Feed
 	                			</h6>
 	                			<ul class="instagram-pics instagram-size-thumbnail">
-	                				<li class=""><a href="gallery/gallery.html" target="_self"><img src="gallery/images/pic01.jpg" class="img-responsive"/></a></li>
+	                				<li class=""><a href="gallery/gallery.html" target="_self"><img src="gallery/images/pic04.jpeg" class="img-responsive"/></a></li>
 	                				<li class=""><a href="gallery/gallery.html" target="_self"><img src="gallery/images/pic06.jpg" class="img-responsive"/></a></li>
 	                				<li class=""><a href="gallery/gallery.html" target="_self"><img src="gallery/images/pic02.jpg" class="img-responsive"/></a></li>
 	                				<li class=""><a href="gallery/gallery.html" target="_self"><img src="gallery/images/pic06.jpg" class="img-responsive"/></a></li>
