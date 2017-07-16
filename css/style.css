@@ -9397,13 +9397,13 @@ padding: 0px 16px 0px 20px;
 .feature i{
     font-size:80px;
     color:#FFFFFF;
-    background:#1E825F;
+    background:#ffa500;
     padding:30px;
     border-radius:50%;
-    border: solid 3px #1E825F;
+    border: solid 3px #ffa500;
 }
 .feature h3 {
-    color:#1E825F;  
+    color:#ffa500;  
 }
 .feature:hover {
     background:#F5F5F5;
@@ -9414,18 +9414,18 @@ padding: 0px 16px 0px 20px;
     transform: translate(0,1em);    
 }
 .feature:hover i{
-    color:#1E825F;
-    border-color:#1E825F;
+    color:#ffa500;
+    border-color:#ffa500;
     background:#FFFFFF;
 }
 .feature:hover .title_border {
-    background-color:#1E825F;
+    background-color:#ffa500;
     width:50%;
 }
 .feature .title_border {
     width: 0%;
     height: 3px;
-    background:#1E825F;
+    background:#ffa500;
     margin: 0 auto;
     margin-top: 12px;
     margin-bottom: 8px;
