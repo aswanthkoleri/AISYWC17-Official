@@ -9446,7 +9446,7 @@ padding: 0px 16px 0px 20px;
 .post-title{
     position: relative;
     margin: 38px 0 18px 0;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     text-transform: uppercase;
     color:#333;
@@ -9471,8 +9471,8 @@ padding: 0px 16px 0px 20px;
     overflow: hidden;
     display: block;
     margin-top: 20px;
-    font-size: 13px;
-    color:#999;
+    font-size: 16px;
+    color: orange;
     text-transform: capitalize;
     opacity: 1;
     transition: all 0.3s ease 0s;
@@ -9510,7 +9510,7 @@ padding: 0px 16px 0px 20px;
     border-color: orange;
 }
 .our-team:hover .border{
-    border-color: #F43662;
+    border-color: orange;
 }
 .our-team:hover .border:after{
     border-color: #fff;
