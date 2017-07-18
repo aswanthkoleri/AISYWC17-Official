@@ -310,53 +310,64 @@
   	<!-- mobile nav -->
   	<div class="navbar-static-top visible-xs-block">
        <style>
+       	@media (max-width: @screen-xs) {
+		body{font-size: 10px;}
+		}
 
-.topnav {
-  overflow: hidden;
-  background-color: #FFB379;
-}
+		@media (max-width: @screen-sm) {
+		    body{font-size: 14px;}
+		}
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
-.topnav a:hover {
-  background-color: #FFB379;
-  color: black;
-}
+		h5{
+		    font-size: 1.4em;
+		}    
+		.topnav {
+		  overflow: hidden;
+		  background-color: #FFB379;
+		}
 
-.topnav .icon {
-  display: none;
-}
+		.topnav a {
+		  float: left;
+		  display: block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
 
-@media screen and (max-width: 1000px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
+		.topnav a:hover {
+		  background-color: #FFB379;
+		  color: black;
+		}
 
-@media screen and (max-width: 1000px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+		.topnav .icon {
+		  display: none;
+		}
 
-}
+		@media screen and (max-width: 1000px) {
+		  .topnav a:not(:first-child) {display: none;}
+		  .topnav a.icon {
+		    float: right;
+		    display: block;
+		  }
+		}
+
+		@media screen and (max-width: 1000px) {
+		  .topnav.responsive {position: relative;}
+		  .topnav.responsive .icon {
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+		  }
+		  .topnav.responsive a {
+		    float: none;
+		    display: block;
+		    text-align: left;
+		  }
+
+		}
 </style>
 
 
@@ -511,77 +522,53 @@ function myFunction() {
 			</div>		
 		</div>
 	</section>
-  	closing of sponsors section -->
-  		<div id="main" class="site-main" style="padding-top: 40px;">
-        <div id="primary" class="content-area">   
-            <div id="post-8" class="post-8 page type-page status-publish hentry">
-				<div class="entry-content">
-					<!--about us section start--><br><br>
-					<section class="vc_row wpb_row vc_row-fluid jx-evont-leftb evont-bg-left no" id="aiswyc">
-						<div class="container" id="myAnchor">
-							<div class="row">
-								<div class="col-sm-12">
-									<div class="vc_column-inner">	
-										<div class="wpb_wrapper">
-											<!-- Tagline START -->
-											<div class="jx-evont-tagline-section  ">
-												<div class="row">
-													<div class="jx-evont-heading">
-														<div class="jx-evont-main-heading"> 
-															<span class="txt-2">AISYWC</span><br><br> 
-														</div>
-														<div class="clearfix"></div>
-													</div>	
-													<p>We, at IEEE India Council, view our sponsors as our partners who are joining our family. This is a project we are investing in together.</p>
-													<p>You can view the complete details about the benefits of being our sponsors here link to inormation brochure  <a href="sbdraft.pdf" style="color: #1b96b4;" target="blank">link to inormation brochure</a></p>
-													<p>To support our event by becoming our sponsors, please contact us at following details:
-													</p>
-													<table class="table">
-													<tbody>
-													    <tr class="table-info" style="background-color: #1fb5f6; color: white;">
-													      <td>Mr. Sudhakar Mishra </td>
-													      <td class="table-info">rs163@iiita.ac.in</td>
-													      <td class="table-info">+91-8090900937</td>
-													    </tr>
-													    <tr class="table-info" style="background-color: #1fb5f6; color: white;">
-													      <td>Mr. Shrikant Malviya</td>
-													      <td>rs162@iiita.ac.in</td>
-													      <td>+91-9451851905</td>
-													    </tr>
-													    <tr class="table-info" style="background-color: #1fb5f6; color: white;">
-													      <td>Mr. Padmakar Pandey</td>
-													      <td>rs175@iiita.ac.in</td>
-													      <td>-</td>
-													    </tr>
-													    <tr class="table-info" style="background-color: #1fb5f6; color: white;">
-													      <td>Ms. Suvidha Tripathi</td>
-													      <td>thepunitsingh@gmail.com</td>
-													      <td>+91-8376863336</td>
-													    </tr>
-													    <tr class="table-info" style="background-color: #1fb5f6; color: white;">
-													      <td>Mr. Punit Singh</td>
-													      <td> rsi2015002@iiita.ac.in</td>
-													      <td>+91-7905855297</td>
-													    </tr>
-													  </tbody>
-													</table>
-													<div class="space40"></div>
-													<div class="space40"></div>
-												</div>
-											</div>					
-											<!-- Tagline END-->
-										</div>
-								    </div>
-		    					</div>
-							</div>
-						</div>
-					</section>
-				</div><br>
-				<footer class="entry-footer">
-				</footer>
+  	closing of sponsors section -->  
+  	<div class="container" style="padding-top: 80px;">
+		<div class="row" id="myAnchor">
+			<div class="col-md-12 section-heading text-center">	
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 subtext">
+						<h1 class="to-animate" style="font-color: black;">Sponsors</h1>
+					</div>
+				</div>
 			</div>
-       	</div>
-    </div>
+		</div>
+		<p>We, at IEEE India Council, view our sponsors as our partners who are joining our family. This is a project we are investing in together.</p>
+		<p>You can view the complete details about the benefits of being our sponsors here link to inormation brochure  <a href="sbdraft.pdf" style="color: #1b96b4;" target="blank">link to inormation brochure</a></p>
+		<p>To support our event by becoming our sponsors, please contact us at following details:</p>
+		<table class="rwd-table" style="background-color: #1fb5f6">
+		  <tr>
+		    <th>Name</th>
+		    <th>Email</th>
+		    <th>Contact</th>
+		  </tr>
+		  <tr>
+		    <td data-th="Movie Title">Mr. Sudhakar Mishra</td>
+		    <td data-th="Genre">rs163@iiita.ac.in</td>
+		    <td data-th="Year">+91-8090900937</td>
+		  </tr>
+		  <tr>
+		    <td data-th="Movie Title">Mr. Shrikant Malviya</td>
+		    <td data-th="Genre">rs162@iiita.ac.in</td>
+		    <td data-th="Year">+91-9451851905</td>
+		  </tr>
+		  <tr>
+		    <td data-th="Movie Title">Mr. Padmakar Pandey</td>
+		    <td data-th="Genre">rs175@iiita.ac.in</td>
+		    <td data-th="Year">-</td>
+		  </tr>
+		  <tr>
+		    <td data-th="Movie Title">Ms. Suvidha Tripathi</td>
+		    <td data-th="Genre">thepunitsingh@gmail.com</td>
+		    <td data-th="Year">+91-8376863336</td>
+		  </tr>
+		  <tr>
+		    <td data-th="Movie Title">Mr. Punit Singh</td>
+		    <td data-th="Genre">rsi2015002@iiita.ac.in</td>
+		    <td data-th="Year">+91-7905855297</td>
+		  </tr>
+		</table>
+	</div>
     <!--footer start here-->
 	<div class="jx-evont-footer jx-footer-5">
 	    <div class="container-fluid">
