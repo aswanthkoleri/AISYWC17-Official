@@ -33,9 +33,7 @@
 	      	<div class="container relative">
 	     		<!-- Brand and toggle get grouped for better mobile display -->
 		        <div class="navbar-header">
-		          	<a href="https://www.ieee.org/index.html" class="navbar-brand standard-logo" style="margin-right:5px">
-				        <img src="images/logo.png" alt=""/>
-				    </a>
+		          	
 				    <a href="http://www.ieeeup.org/" class="navbar-brand standard-logo">
 				        <img src="images/logo3.png" alt="" width="150px" height="50px"/>
 				    </a>
@@ -169,62 +167,108 @@
     display: block;
     text-align: left;
   }
+  #features {
+    margin-top:20px;
+}
 
+
+}
+#features {
+    margin-top:20px;
+}
+.feature, .feature i, .feature h3, .feature .title_border {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 0.4s ease-in-out;    
+}
+.feature {
+    background:#FFFFFF;
+    text-align:center;
+    padding:20px;
+    border: solid 1px #cccccc;
+}
+.feature p {
+    margin-top:20px;
+    text-align:left;   
+    margin-bottom:30px;   
+}
+.feature i{
+    font-size:80px;
+    color:#FFFFFF;
+    background:orange;
+    padding:30px;
+    border-radius:50%;
+    border: solid 3px orange;
+}
+.feature h3 {
+    color:orange;  
+}
+.feature:hover {
+    background:#F5F5F5;
+}
+.feature:hover i{
+    color:orange;
+    border-color:orange;
+    background:#FFFFFF;
+}
+.feature:hover .title_border {
+    background-color:orange;
+    width:50%;
+}
+.feature .title_border {
+    width: 0%;
+    height: 3px;
+    background:orange;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.post-title{
+    text-align:center;
+    margin: 38px 0 18px 0;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#333;
 }
 </style>
 
 
 <div class="topnav" id="myTopnav" style="background-image: ">
-<a href="index.html" class="navbar-brand standard-logo">
-		          		<img src="images/logo.png" alt=""/>
-		          	</a>
-  <a href="index.html#about">About Us</a>
-  <a href="index.html#speaker">Speakers</a>
-  <a href="index.html#program">Programs</a>
-  <a href="sponsors.html">Sponsors</a>
-<a href="register.html">Register</a>
-<a href="team.html">Team</a>
-<a href="#contact">Contact</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
+	<a href="index.html" class="navbar-brand standard-logo">
+			          		<img src="images/logo.png" alt=""/>
+			          	</a>
+	  <a href="index.html#about">About Us</a>
+	  <a href="index.html#speaker">Speakers</a>
+	  <a href="index.html#program">Programs</a>
+	  <a href="sponsors.html">Sponsors</a>
+	<a href="register.html">Register</a>
+	<a href="team.html">Team</a>
+	<a href="#contact">Contact</a>
+	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	<script>
+	function myFunction() {
+	    var x = document.getElementById("myTopnav");
+	    if (x.className === "topnav") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "topnav";
+	    }
+	}
+	</script>
 
-  	</div>
+</div>
   	<!-- mobile nav end -->
   	<!--/navbar end-->
-
-  	<!--header start-->
-	<div class="jx-evont-common_page_header jx-home-slider"style="background-image:url(images/venue/header.jpg); background-position:center">
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-lg-12 main-content-slider">
-	                <div class="slider-date">
-	                	<div class="jx-month-small">
-	                        <div class="event-title">AISYWC'17</div>
-	                        <div class="event-ticket-btn">Register</div>
-	                        <div class="clearfix"></div>
-	                    </div><br>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-	</div>
-	<!--header end-->
-
 	<!--tracks section  start-->
 	<section class="vc_row wpb_row vc_row-fluid jx-evont-leftb evont-bg-left no" id="track">
+			
 			<div class="container">
 				<div class="jx-evont-title-1 jx-light">		
 				</div><br><br>
+				<h2  class="post-title">VENUE</h2>
 				<div id="features" >
 					<div class="row">
 						<div class="col-md-6 feature">
@@ -252,7 +296,7 @@ function myFunction() {
 	</section>
 					<!--track section end-->
 	
-    <!--footer start here-->
+	    <!--footer start here-->
 	<div class="jx-evont-footer jx-footer-5">
 	    <div class="container-fluid">
 	   		<div class="row">
