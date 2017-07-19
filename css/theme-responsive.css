@@ -115,7 +115,7 @@
 		  [11.0 Header  ]
 		----------------------------------------------------------------*/
 		
-		.menu-main-menu-container {display: none !important;}
+		
 		
 		.header .shopping-cart {
 			position: absolute !important;
@@ -451,7 +451,9 @@
 		.retina-logo{display:block !important; }
 		.standard-logo{display:none !important; }
 		
-		.menu-main-menu-container {display: none !important;}
+		#menu-item-22187{
+			display:none;
+		}
 		
 		.header .shopping-cart {
 			position: absolute !important;
@@ -852,7 +854,7 @@
 		.retina-logo{display:block !important; }
 		.standard-logo{display:none !important; }
 		
-		.menu-main-menu-container {display: none !important;}
+		
 		
 		.header .shopping-cart {
     position: absolute !important;
@@ -1117,7 +1119,7 @@
 		.retina-logo{display:block !important; }
 		.standard-logo{display:none !important; }
 		
-		.menu-main-menu-container {display: none !important;}
+		
 		
 		.header .shopping-cart {
 			position: absolute !important;
