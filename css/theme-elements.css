@@ -5,6 +5,7 @@
 	3.0 Image Placeholder
 	4.0 Partner Logo
 	5.0 Listing 
+	 
 	 ======
 	-------------------------------------------------------------------*/
 	/*---------------------------------------------------------------
@@ -503,7 +504,176 @@
 
 	
 	
+	/* 11. CONTACT MAP SECTION */
+	/* Contact Details */
 	
+	
+	
+	
+	.jx-evont-contact-info {
+	 margin-bottom: 40px;
+	}
+	.jx-evont-contact-info .logo {
+	padding-bottom: 23px;
+	}
+	.jx-evont-contact-info .title {
+	color: #000000;
+	font-size: 25px;
+	line-height: 22px;
+	padding-bottom: 13px;
+	text-transform: lowercase;
+	}
+	.jx-evont-contact-info .email {
+		color: #000000;
+		margin-top: 0px;
+		margin-bottom: 30px;
+		font-size: 14px;
+	}
+	.jx-evont-contact-info .email i {
+	font-size: 20px;
+	}
+	.jx-evont-contact-info i {
+		color: #000000;
+		margin-right: 10px;
+		font-size: 26px;
+		text-align: center;
+		width: 25px;
+	}
+	.jx-evont-contact-info .icon{
+	 float:left
+	}
+	.jx-evont-contact-info .address .value{
+	}
+	.jx-evont-contact-info .address {
+	color: #000000;
+	margin-bottom: 21px;
+	font-size: 14px;
+	max-width: 100%;
+	text-transform: lowercase;
+	}
+	.jx-evont-contact-info .phone {
+	color: #000000;
+	margin-bottom: 17px;
+	font-size: 14px;
+	max-width: 100%;
+	}
+	/* Social Icons */
+	.contact-social ul{
+	 margin:0;
+	  padding:0
+	}
+	.contact-social ul li{
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	}
+	.contact-social ul li i{
+		background: #fff;
+		color: #333;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 40px;
+		font-size: 20px;
+		margin: 0px;
+		border: solid 1px #000000;
+	}
+	.contact-social ul li:hover i{
+	color: #FF4500;
+	width: 40px;
+	border-color: #FF4500;
+	}
+	
+	
+	.jx-evont-contact-form.no-bg input, .jx-evont-contact-form.no-bg textarea {
+		background:none !important;
+		background-color:none !important;
+		color: #ffffff !important;
+	}
+	
+	.jx-evont-contact-form .contact-full-name{
+	  margin-right:10px;
+	}
+	.jx-evont-contact-form .contact-full-name,.jx-evont-contact-form .contact-email{
+	  width:100%;
+	  display: inline-block
+	}
+	.jx-evont-contact-form input,.jx-evont-contact-form textarea{
+	  background:#f9f9f9 !important;
+	}
+	.jx-evont-contact-form .contact-message textarea{
+	  height:190px;
+	}
+	.jx-evont-contact-form button{
+	  font-size:18px;
+	  border:0;
+	  padding:10px 25px;
+	}
+	.contact-social ul li i{
+		background: #fff;
+		color: #333;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 40px;
+		font-size: 20px;
+		margin: 0px;
+		border: solid 1px #000000;
+	}
+	.contact-social ul li:hover i{
+	color: #FF4500;
+	width: 40px;
+	border-color: #FF4500;
+	}
+	.jx-evont-contact-form .contact-full-name{
+	  margin-right:10px;
+	}
+	.jx-evont-contact-form .contact-full-name,.jx-evont-contact-form .contact-email, .jx-evont-contact-form .contact-subject {
+	  width:100%;
+	  display: inline-block;
+	}
+	.jx-evont-contact-form input,.jx-evont-contact-form textarea{
+	  background:#f9f9f9 !important
+	}
+	.jx-evont-contact-form .contact-message textarea{
+	  height:190px;
+	}
+	.jx-evont-contact-form button{
+	  font-size:18px;
+	  border:0;
+	  padding:10px 25px;
+	  text-align: center;
+	  font-weight:500;
+	  text-align: center;
+	  font-weight:500;
+	  background: #FF4500;  
+
+	  margin-top: 5px;
+	  border-radius: 5px;
+	  color: #ffffff;
+	}
+	.jx-evont-contact-form button:hover{
+		background: #333 !important;
+	  color: #FF4500;
+	  border: 0;
+	}
+	.jx-evont-contact-form button i{
+	font-size:17px;
+	  margin-right:5px;
+	}
+	
+	.jx-evont-contact-info .subtitle {
+		color: #7d7878;
+		font-size: 14px;
+		padding-bottom:5px;
+	}
+	
+	.jx-evont-contact-info .description {
+		font-size: 14px;
+		padding: 0px 0px 20px 0px;
+	}
 	
 	/* Office Support */
 	.jx-evont-team-member-2 .office{ padding:0; margin:0}
@@ -3040,7 +3210,7 @@
 		box-shadow: 0 0 20px rgba(0,0,0,0.2);
 	}
 	.jx-evont-plan-section .plan-column h3 {
-		color: #000;
+		ccolor: #000;
 		font-family: 'Raleway';
 		font-weight: 800 !important;
 		font-size: 35px !important;
@@ -3527,6 +3697,7 @@
 		color: #404040;
 	}
 	.tab-content {
+		background-color:none;
 		border: 0;
 		padding: 15px 0;
 		text-align:left;
@@ -4153,14 +4324,14 @@
 		border-radius: 3px;
 		left: auto;
 		color: #000;
-		background-color: #EBE9EB;
+		*background-color: #EBE9EB;
 		border: 0px none;
 		white-space: nowrap;
 		display: inline-block;
 		background-image: none;
 		box-shadow: none;
 		text-shadow: none;
-		color: #ffffff;
+		color: #fffffff;
 		background: #fff220;
 		border-radius: 5px;
 		font-weight: 600;
@@ -4189,7 +4360,7 @@
 		bottom: 0;
 		right: 0;
 		opacity: 0;
-		/*filter: alpha(opacity=00);*/
+		filter: alpha(opacity=00);
 		-webkit-transition: all ease-in-out 0.3s;
 		-moz-transition: all ease-in-out 0.3s;
 		-o-transition: all ease-in-out 0.3s;
@@ -4199,7 +4370,7 @@
 	.product-hover:hover .product-change-images,
 	.product-hover:hover {
 		opacity: 1;
-		/*filter: alpha(opacity=100);*/
+		filter: alpha(opacity=100);
 	}
 	.product-hover:hover {
 		cursor: pointer;
@@ -4251,7 +4422,7 @@
 	.flip-wrapper,
 	.flip-wrapper:hover {
 		opacity: 1;
-		/*filter: alpha(opacity=100);*/
+		filter: alpha(opacity=100);
 		background: transparent;
 	}
 	/* Product List */
@@ -5412,7 +5583,7 @@
 	  font-size: 16px;
 
 	  padding-bottom: 25px;
-	  color: #838;
+	  color: #Â©838;
 	  /* fix bug on Safari - text flickering while timeline translates */
 	  -webkit-transform: translateZ(0);
 	  -moz-transform: translateZ(0);

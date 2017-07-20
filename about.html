@@ -20,11 +20,13 @@
 	<link rel='stylesheet' id='evont-theme-responsive-css'  href='css/theme-responsive.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='evont-plugins-css'  href='css/plugins.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='bootstrap-css'  href='css/bootstrap.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='flexslider-css'  href='css/flexslider.min.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='prettyPhoto-css'  href='css/prettyPhoto.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='owl-css'  href='css/owl_carousel.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='google-fonts-css'  href='css/google_fonts.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='theme-animate-css'  href='css/theme-animate.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='stylesheet-css'  href='css/style.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='contact-form-7-css'  href='css/form_style.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='rs-plugin-settings-css'  href='css/settings.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='js_composer_front-css'  href='css/js_composer.min.css' type='text/css' media='all' />
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -70,30 +72,139 @@
 		  text-align: left;
 		}
 		/* ending pageup */
-		
+		#lang_sel a, #lang_sel a.lang_sel_sel{
+			color:#444444;
+		}
+		#lang_sel a:hover, #lang_sel a.lang_sel_sel:hover{
+			color:#000000;
+		}
+		#lang_sel a.lang_sel_sel, #lang_sel a.lang_sel_sel:visited{
+			background-color:#ffffff;
+		}
+		#lang_sel a.lang_sel_sel:hover{
+			background-color:#eeeeee;
+		}
+		#lang_sel li ul a, #lang_sel li ul a:visited{
+			color:#444444;
+		}
+		#lang_sel li ul a:hover{
+			color:#000000;
+		}
+		#lang_sel li ul a, #lang_sel li ul a:link, #lang_sel li ul a:visited{
+			background-color:#ffffff;
+		}
+		#lang_sel li ul a:hover{
+			background-color:#eeeeee;
+		}
+		#lang_sel a, #lang_sel a:visited{
+			border-color:#cdcdcd;
+		}
+		#lang_sel ul ul{
+			border-top:1px solid #cdcdcd;
+		}
+	</style>
+	<style type="text/css">
+		img.wp-smiley,img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<style id='rs-plugin-settings-inline-css' type='text/css'>
+		#rs-demo-id {}
 	</style>
 	<style id='evont-customcss-inline-css' type='text/css'>
-		*,body   , .nav-tabs > li > a  { 
+		*,body , .jx-evont-contactmap-section p , .jx-evont-blog-section p , .jx-evont-title-1 p , .programs_item p , .nav-tabs > li > a  { 
 			font-family: Georgia Arial, Helvetica, sans-serif ;
+		}
+		h1,h2,h3,h4,h5,h6 , .jx-evont-title-1 h1 , .jx-evont-get-updates h2 , .jx-evont-contactmap-section h2 , .jx-evont-contactmap-section h3 , .jx-evont-tagline-section .jx-evont-heading .txt-1 , .jx-evont-tagline-section .jx-evont-heading .txt-2 , .jx-venue-2 .jx-venue-item .title  {
+			font-family: Raleway, Arial, Helvetica, sans-serif !important;
+		}
+		div.subtitle , .jx-evont-blog-section.small h3 , .jx-venue-1 .jx-venue-item .title , .jx-evont-blog-section.style-3 h3 , .programs_item h3 { 
+			font-family: Raleway, Arial, Helvetica, sans-serif !important;
 		}
 		nav ul li a , .jx-evont-mainmenu li a { 
 			font-family: Roboto, Arial, Helvetica, sans-serif !important;
 		}
-		footer h6, .jx-evont-footer.jx-footer-1 .jx-evont-copyright {
+		footer h1,footer h2,footer h3,footer h4,footer h5,footer h6, .jx-evont-footer.jx-footer-1 .jx-evont-copyright {
 			font-family: Open Sans, Arial, Helvetica, sans-serif !important;
+		}
+		.jx-evont-tagline-section .jx-evont-heading .number , .jx-month-small .event-title , .jx-month-small .event-ticket-btn , .jx-big-date , .jx-month-small , .jx-month-small .slider-year , .jx_evont_countdown ul li , .jx-evont-hero-title h2 , .programs_item.style-1 .time {
+		 	font-family: Roboto, Arial, Helvetica, sans-serif !important;
 		}
 		body{
 			font-size: 15px;
+			font-weight: normal;
+			color: <?php  echo  ?>; 
+		}
+		h1{ 
+			font-size: 32px;
 			font-weight: normal; 
+			color: ; line-height: 30px;
+			font-weight: 300;
+		}
+		h2{ 
+			font-size: 23px; 
+			font-weight: normal; 
+			color: ; 
+		}
+		h3{ 
+			font-size: 18px;
+			font-weight: normal; 
+			color: ; 
+		}h4{ 
+			font-size: 16px;
+		 	font-weight: normal; 
+		 	color: ; 
+		}
+		h5{ 
+			font-size: 15px; 
+			font-weight: normal; 
+			color: ; 
 		}
 		h6{ 
-			font-family: Raleway, Arial, Helvetica, sans-serif !important;
 			font-size: 14px; 
-			font-weight: normal;  
+			font-weight: normal; 
+			color: ; 
 		}
-		h6 a, h6 a:visited  {
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:visited, h2 a:visited, 
+		h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited  {
 		 	font-weight: inherit;
 		  	color: inherit; 
+		}
+		body{}
+	</style>
+	<style type="text/css" data-type="vc_shortcodes-custom-css">
+		.vc_custom_1497701031547{
+			background: #f9f9f9 url(images/speaker_background.jpg) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;
+		}
+		.vc_custom_1497972687631{
+			background-color: orange !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+		.vc_custom_1497700943276{
+			background-color: #f9f9f9 !important;
+		}
+		.vc_custom_1497699777054{
+			background-color: #f9f9f9 !important;
+		}
+		.vc_custom_1497972406673{
+			background-color: orange !important;
+			background-position: center;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+		.vc_custom_1470397984220{
+			padding-top: 150px !important;
+			padding-left: 30px !important;
 		}
 	</style>
 	<noscript>
@@ -104,13 +215,21 @@
 	<!--==============javascript================-->
 
 	<script type="text/javascript" src="js/onLoad.js"></script>
-	
+	<script type='text/javascript'>
+		/* <![CDATA[ */
+		var ajaxVars = {"ajaxurl":"http:\/\/evont.janxcode.com\/wp-admin\/admin-ajax.php","ajax_nonce":"bc3717fdb3"};
+		/* ]]> */
+	</script>
 	<script type='text/javascript' src='js/jquery.js'></script>
 	<script type='text/javascript' src='js/jquery-migrate.min.js'></script>
 	<script type='text/javascript' src='js/jquery.themepunch.tools.min.js'></script>
 	<script type='text/javascript' src='js/jquery.themepunch.revolution.min.js'></script>
-
-	<!--<script type='text/javascript'>
+	<script type='text/javascript'>
+		/* <![CDATA[ */
+		var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/evont.janxcode.com\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
+		/* ]]> */
+	</script>
+	<script type='text/javascript'>
 		jQuery(document).ready(function($){var prettyPhoto_parameters = {animation_speed: 'fast',slideshow: false,opacity: 0.8,show_title:true,allow_resize: true,
 	            default_width: 920,
 	            default_height: 540,
@@ -118,177 +237,61 @@
 	            wmode: 'opaque',
 	            autoplay: true,
 	            modal: false,overlay_gallery: true};});
-	</script>-->
+	</script>
 
 	   
 </head>  
  
 <body class="home page-template page-template-template-home page-template-template-home-php page page-id-8 smooth-scroll preloader wpb-js-composer js-comp-ver-4.11.2.1 vc_responsive" >
- 	<!-- navbar start -->
-    <a href="#myAnchor" class="go-top"><i class="fa fa-angle-up"></i></a>
-    <!-- desktop nav -->
-    <div class="navbar-default hidden-xs">
-    <header class="jx-evont-header jx-header-1 header jx-evont-sticky">
-        <nav class="navbar navbar-default  navbar-fixed-top" style = "background-color: #FFB379">
-            <div class="container relative">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <a href="http://www.ieeeup.org/" class="navbar-brand standard-logo">
-                        <img src="images/logo3.png" alt="" width="150px" height="50px"/>
-                    </a>
-                    <!-- EOF Retina -->                    
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <div class="menu-main-menu-container">
-                        <ul id="menu-main-menu"class="jx-evont-mainmenu navbar-right">
-                            	<li id="menu-item-1459">
-                            	    <a href="index.html">HOME</a>
+ 	<!--/navbar start-->
+ 		<a href="#myAnchor" class="go-top"><i class="fa fa-angle-up"></i></a>
+ 	<header class="jx-evont-header jx-header-1 header jx-evont-sticky">
+	    <nav class="navbar navbar-default  navbar-fixed-top" style="background-color: #fec17e;background-position:center">
+	      	<div class="container relative">
+	     		<!-- Brand and toggle get grouped for better mobile display -->
+		        <div class="navbar-header">
+			          	<a href="http://www.ieeeup.org/" class="navbar-brand standard-logo">
+			          		<img src="images/logo.png" alt="" width="150px" height="50px"/>
+			          	</a>
+		            <!-- EOF Retina -->                    
+		        </div>  
+	        	<!-- Collect the nav links, forms, and other content for toggling -->
+	        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+					<div class="menu-main-menu-container">
+						<ul id="menu-main-menu"class="jx-evont-mainmenu navbar-right">
+							<li id="menu-item-1459">
+								<a href="index.html">HOME</a>
+							</li>
+							<li id="menu-item-1459" >
+								<a href="index.html#speaker">SPEAKERS</a>
+							</li>
+							<li id="menu-item-2218" style="font-size:14px;color:black">
+								<a href="index.html#program">PROGRAMS</a>
+							</li>
+							<li id="menu-item-2218" ><a href="sponsors.html">SPONSORS</a></li>
+							<li id="menu-item-2218" ><a href="register.html">REGISTER</a></li>
+							<li id="menu-item-1459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children no-mega 2">
+                                <a href="#">TEAM</a>
+                                <ul class="submenu">
+                                    <li class="col">
+                                        <ul>
+                                            <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page no-mega 0"><a href="team1.html">EXECUTIVE TEAM</a></li>
+                                            <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page no-mega 0"><a href="team2.html">STUDENT TEAM</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             	</li>
-                            	<li id="menu-item-1459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children no-mega 4">
-                                	<a href="#about">ABOUT US</a>
-                                	<ul class="submenu">
-                                    	<li class="col">
-                                        	<ul>
-                                            	<li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page no-mega 0"><a href="index.html#aisywc17">AISYWC17</a></li>
-                                            	<li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page no-mega 0"><a href="index.html#venue">VENUE</a></li>
-                                            	<li id="menu-item-2216" class="menu-item menu-item-type-custom menu-item-object-custom no-mega 0"><a href="about.html#india_council">IEEE India Council</a></li>
-                                            	<li id="menu-item-2216" class="menu-item menu-item-type-custom menu-item-object-custom no-mega 0"><a href="about.html#upsection">IEEE UP Section</a></li>
-                                        	</ul>
-                                    	</li>
-                                	</ul>
-                            	</li>
-                            	<li id="menu-item-14597" >
-                                    <a href="index.html#speaker">SPEAKERS</a>
-                                </li>
-                                <li id="menu-item-22187" style="font-size:14px;color:black">
-                                    <a href="index.html#program">PROGRAMS</a>
-                                </li>
-                                <li id="menu-item-2218" ><a href="sponsors.html">SPONSORS</a></li>
-                                <li id="menu-item-256" ><a href="register.html">REGISTER</a>
-                                </li>
-                                 <li id="menu-item-1459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children no-mega 2">
-                                	<a href="#">TEAM</a>
-                                	<ul class="submenu">
-                                    	<li class="col">
-                                        	<ul>
-                                            	<li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page no-mega 0"><a href="team1.html">EXECUTIVE TEAM</a></li>
-                                            	<li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page no-mega 0"><a href="team2.html">STUDENT TEAM</a></li>
-                                        	</ul>
-                                    	</li>
-                                	</ul>
-                            	</li>
-                                </li>
-                                <li id="menu-item-258"><a href="#contact">CONTACT</a>
-                                </li>
-                                <li id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children no-mega 4">
-                                    <a href="#about">MORE</a>
-                                    <ul class="submenu">
-                                        <li class="col">
-                                            <ul>
-                                                <li id="menu-item-25"><a href="#contact">Contact</a>
-                                                </li>
-                                                <li id="menu-item-24"><a href="team1.html">EXECUTIVE TEAM</a>
-                                                </li>
-                                                 <li id="menu-item-24"><a href="team2.html">STUDENT TEAM</a>
-                                                </li>
-                                                <li id="menu-item-21" >
-                                    				<a href="index.html#speaker">Speakers</a>
-                                				</li>
-                                				<li id="menu-item-20" style="font-size:14px;color:black">
-                                    				<a href="index.html#program">Programs</a>
-                                				</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                        </ul>
-                    </div>                
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-    </header>
-    </div>
-    <!-- mobile nav -->
-    <div class="navbar-static-top visible-xs-block">
-        <style>
-
-			.topnav {
-			  overflow: hidden;
-			  background-color: #FFB379;
-			}
-
-			.topnav a {
-			  float: left;
-			  display: block;
-			  color: #f2f2f2;
-			  text-align: center;
-			  padding: 14px 16px;
-			  text-decoration: none;
-			  font-size: 17px;
-			}
-
-			.topnav a:hover {
-			  background-color: #FFB379;
-			  color: black;
-			}
-
-			.topnav .icon {
-			  display: none;
-			}
-
-			@media screen and (max-width: 1000px) {
-			  .topnav a:not(:first-child) {display: none;}
-			  .topnav a.icon {
-			    float: right;
-			    display: block;
-			  }
-			}
-
-			@media screen and (max-width: 1000px) {
-			  .topnav.responsive {position: relative;}
-			  .topnav.responsive .icon {
-			    position: absolute;
-			    right: 0;
-			    top: 0;
-			  }
-			  .topnav.responsive a {
-			    float: none;
-			    display: block;
-			    text-align: left;
-			  }
-
-			}
-		</style>
-		<div class="topnav" id="myTopnav" style="background-image: ">
-    		<a href="index.html" class="navbar-brand standard-logo">
-                <img src="images/logo.png" alt=""/>
-            </a>
-		    <a href="index.html#about">About Us</a>
-		    <a href="index.html#speaker">Speakers</a>
-		    <a href="index.html#program">Programs</a>
-		    <a href="sponsors.html">Sponsors</a>
-		    <a href="register.html">Register</a>
-		    <a href="team1.html">EXECUTIVE TEAM</a>
-		    <a href="team2.html">STUDENT TEAM</a>
-		    <a href="#contact">Contact</a>
-		    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-		</div>
-		<script>
-		function myFunction() {
-		    var x = document.getElementById("myTopnav");
-		    if (x.className === "topnav") {
-		        x.className += " responsive";
-		    } else {
-		        x.className = "topnav";
-		    }
-		}
-		</script>
-    </div>
-    <!-- mobile nav end -->
-    <!--/navbar end-->
+							<li id="menu-item-256"><a href="#contact">CONTACT</a>
+							</li>
+						</ul>
+					</div>                
+	        	</div>
+	        	<!-- /.navbar-collapse -->
+	      	</div>
+	      	<!-- /.container-fluid -->
+	    </nav>
+  	</header>
+  	<!--/navbar end-->
 
   	<!--header start-->
 	
@@ -315,11 +318,11 @@
 														</div>
 														<div class="clearfix"></div>
 													</div>	
-													<p style="text-align:justify">IEEE and its members inspire a global community through IEEE’s highly cited publications, conferences, technology standards, and professional and educational activities.AISYWC is one of the many efforts made by IEEE to bring the community a bit closer.</p>
-													<p  style="text-align:justify">
+													<p>IEEE and its members inspire a global community through IEEE’s highly cited publications, conferences, technology standards, and professional and educational activities.AISYWC is one of the many efforts made by IEEE to bring the community a bit closer.</p>
+													<p>
 													The All India Student – Young Professionals – Women in Engineering Congress is the annual hallmark event of the IEEE India Council. Founded in 2000, the AIS(YW)C has grown over the years to become the largest event on the calendar for IEEE members in India. It is a conglomeration of professionals, entrepreneurs, visionaries and some of the greatest minds in the country. By bringing together amazing people from all walks of life, the AISYWC empowers its participants to be inspired for more, collaborate together and innovate for tomorrow.
 													Every year, AIS(YW)C is held at a different venue giving students, from all over the country, a chance to gain the maximum benefit from it.</p>
-													<p style="text-align:justify">
+													<p>
 													In 2011, the proper organization of the congress started with IEEE Delhi Section. AISC’11 was held at Jamia Millia Islamia, New Delhi from 29 September to 1st October, 2011.
 													In the following years, the congress has been organized successfully in many other sections including Gujarat, Bangalore, Madras. In 2015 AISC evolved to be known as AISYWC ,hosted by Kerala Section and by IEEE Delhi Section along with IEEE Rajasthan Subsection at LNM Information Institute of Technology in Jaipur, Rajasthan from 7th-9th October, 2016.</p>
 													</p>
@@ -351,7 +354,7 @@
 														</div>
 														<div class="clearfix"></div>
 														<p style="text-align:justify">The Institute of Electrical and Electronics Engineers, Incorporated (IEEE) is a non-profit corporation, incorporated in the state of New York on 16 March 1896. The purpose of the IEEE is to engage exclusively in scientific and educational activities directed towards the advancement of the theory and practice of electrical, electronics, communications and computer engineering, as well as computer science, the allied branches of engineering and the related arts and sciences, which benefit the engineering profession and the public making it the world’s largest professional body working towards advancement of technology for humanity. 
-														<br>Official Website : <a href="http://www.ieee.org/index.html" style="color:#1b96b4;text-align:justify">www.ieee.org</a></p>
+														<br>Official Website : <a href="http://www.ieee.org/index.html" style="color:#1b96b4">www.ieee.org</a></p>
 													</div>	 
 												</div>
 											</div>					
@@ -379,7 +382,7 @@
 														</div>
 														<div class="clearfix"></div>
 													</div>	
-													<p  style="text-align:justify">IEEE India Council ,currently chaired by Sivaji Chakravorti, is the umbrella organisation which coordinates IEEE activities in India. Its primary aim is to assist and coordinate the activities of local “Sections”, in order to benefit mutually, and avoid duplication of effort and resources. IEEE India Council was established on 20th May 1976 and is one of the five councils in the Asia Pacific Region (Region #10 of IEEE). To Know more visit: <a href="http://www.ewh.ieee.org/r10/india_council/indiacouncil.html" style="color:#1b96b4;">IEEE India Council</a></p>
+													<p>IEEE India Council ,currently chaired by Sivaji Chakravorti, is the umbrella organisation which coordinates IEEE activities in India. Its primary aim is to assist and coordinate the activities of local “Sections”, in order to benefit mutually, and avoid duplication of effort and resources. IEEE India Council was established on 20th May 1976 and is one of the five councils in the Asia Pacific Region (Region #10 of IEEE).<br>Know more : <a href="http://www.ewh.ieee.org/r10/india_council/indiacouncil.html" style="color:#1b96b4"> http://www.ewh.ieee.org/r10/india_council/indiacouncil.html</a></p>
 													<div class="space40"></div>
 													<div class="space40"></div>
 												</div>
@@ -408,7 +411,7 @@
 														</div>
 														<div class="clearfix"></div>
 													</div>
-													<p  style="text-align:justify">IEEE UP Section is one of the most active sections of IEEE India Council. It is the controlling body of all types of IEEE related activities in the state of Uttar Pradesh in India. The Uttar Pradesh Section is located in Region 10, and is represented at the India Council. The Section was formed on 11 May 1992. It's been continuously increasing for last three years in terms of opening new student branches, new student chapters, section chapters and recently Nepal subsection.<br>Know More : <a href="http://www.ieeeup.org/" style="color:#1b96b4;text-align:justify">http://www.ieeeup.org/</a>
+													<p>IEEE UP Section is one of the most active sections of IEEE India Council. It is the controlling body of all types of IEEE related activities in the state of Uttar Pradesh in India. The Uttar Pradesh Section is located in Region 10, and is represented at the India Council. The Section was formed on 11 May 1992. It has been continuously increasing for last three years in terms of opening new student branches, new student chapters, section chapters and recently Nepal subsection.<br>Know More : <a href="http://www.ieeeup.org/" style="color:#1b96b4">http://www.ieeeup.org/</a>
 													</p>
 													<div class="space40"></div>
 													<div class="space40"></div>
@@ -434,7 +437,7 @@
 	    <div class="container-fluid">
 	   		<div class="row">
 	    		<!--about us section start-->
-	    		<div class="col-md-8 col-sm-0">
+	    		<div class="col-md-8" col-sm-0">
 	    		<div class="col-md-1 col-sm-0"></div>
 	            <div class="col-md-4 col-sm-6" id="contact">
 	                <div class="jx-footer-text">
@@ -511,7 +514,15 @@
     <!--======javascript=====-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
 <script>
-
+/*Add class when scroll down*/
+$(window).scroll(function(event){
+  	var scroll = $(window).scrollTop();
+    if (scroll >= 50) {
+        $(".go-top").addClass("show");
+    } else {
+        $(".go-top").removeClass("show");
+    }
+});
 /*Animation anchor*/
 $('a').click(function(){
     $('html, body').animate({
@@ -519,16 +530,67 @@ $('a').click(function(){
     }, 1000);
 });
 </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
     <!-- script for topup -->
+	<script data-cfasync="false">
+			  var logout_link = document.querySelectorAll('a[href*="wp-login.php?action=logout"]');
+			  if (logout_link) {
+			    for(var i=0; i < logout_link.length; i++) {
+			      logout_link[i].addEventListener( "click", function() {
+			        Intercom('shutdown');
+			      });
+			    }
+			  }
+	</script>
+	<script data-cfasync="false">
+	  window.intercomSettings = {"app_id":"v7tsyyqc","language_override":"en"};
+	</script>
+	<script data-cfasync="false">
+		(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/v7tsyyqc';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+	</script>
+	<script type='text/javascript'>
+		/* <![CDATA[ */
+		var icl_vars = {"current_language":"en","icl_home":"http:\/\/evont.janxcode.com","ajax_url":"http:\/\/evont.janxcode.com\/wp-admin\/admin-ajax.php","url_type":"3"};
+		/* ]]> */
+	</script>
+	<script type='text/javascript'>
+		/* <![CDATA[ */
+		var _wpcf7 = {"loaderUrl":"http:\/\/evont.janxcode.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"sending":"Sending ..."};
+		/* ]]> */
+	</script>
 	<script type='text/javascript' src='js/scripts.js'></script>
 	<script type='text/javascript' src='js/jquery.blockUI.min.js'></script>
 	<script type='text/javascript' src='js/js.cookie.min.js'></script>
+	<script type='text/javascript'>
+		/* <![CDATA[ */
+		var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+		/* ]]> */
+	</script>
 	<script type='text/javascript' src='js/woocommerce.min.js'></script>
+	<script type='text/javascript'>
+		/* <![CDATA[ */
+		var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+		/* ]]> */
+	</script>
 	<script type='text/javascript' src='js/cart-fragments.min.js'></script>
 	<script type='text/javascript' src='js/bootstrap.min.js'></script>
 	<script type='text/javascript' src='jsrespond.js'></script>
 	<script type='text/javascript' src='js/jquery.appear.js'></script>
 	<script type='text/javascript' src='js/jquery.prettyPhoto.min.js'></script>
+	<script type='text/javascript' src='http://evont.j/anxcode.com/wp-content/plugins/js-composer/assets/lib/bower/flexslider/jquery.flexslider-min.js'>/</script>
 	<script type='text/javascript' src='js/isotope.pkgd.min.js'></script>
 	<script type='text/javascript' src='jsowl.carousel.min.js'></script>
 	<script type='text/javascript' src='js/modernizr.js'></script>
@@ -537,7 +599,7 @@ $('a').click(function(){
 	<script type='text/javascript' src='js/theme.js'></script>
 	<script type='text/javascript' src='js/wp-embed.min.js'></script>
 	<script type='text/javascript' src='js/sitepress.js'></script>
-	<!--<script type='text/javascript' src='js/js_composer_front.min.js'></script>-->
+	<script type='text/javascript' src='js/js_composer_front.min.js'></script>
 	<script type='text/javascript' src='js/skrollr.min.js'></script>
     
  

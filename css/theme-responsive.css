@@ -5,9 +5,7 @@
 
 	@media only screen and (min-width: 960px) and (max-width: 1199px) {
 	
-	#menu-item-23{
-			display: none;
-		}
+	
 	
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
 	    width: 46.05% !important;
@@ -117,7 +115,7 @@
 		  [11.0 Header  ]
 		----------------------------------------------------------------*/
 		
-		
+		.menu-main-menu-container {display: none !important;}
 		
 		.header .shopping-cart {
 			position: absolute !important;
@@ -198,7 +196,68 @@
 			
 			
 			
+					/*---------------------------------------------------------------
+		  [19.0 PRICE  ]
+		----------------------------------------------------------------*/
 		
+		.jx-evont-plan-section-2 .plan-column .jx-evont-plan-price {
+			font-size: 60px !important;
+		}		
+		
+		.jx-evont-plan-section-2 .standard-column .jx-evont-plan-price {
+			font-size: 60px !important;
+		}		
+		.jx-evont-plan-section-2 .plan-column .jx-evont-plan-price span {
+			font-size: 30px !important;
+		}
+		.jx-evont-plan-section-2 .standard-column .jx-evont-plan-price span {
+			font-size: 30px !important;
+		}
+		
+		.jx-evont-plan-section-2 .plan-column h3 {
+			font-size: 30px !important;
+		}
+		
+		.jx-evont-plan-section-2 .standard-column h3 {
+			font-size: 30px !important;
+		}
+	
+		.jx-evont-plan-section-2 .plan-column ul li {
+			font-size: 14px !important;
+		}
+		
+		.jx-evont-plan-section-2 .standard-column ul li {
+			font-size: 14px !important;
+		}
+		
+		.jx-evont-plan-section-2 .plan-column .registerBtn {
+			font-size: 14px !important;
+			padding: 6px 20px !important;
+		}
+		
+		.jx-evont-plan-section-2 .standard-column .registerBtn {
+			font-size: 14px !important;
+			padding: 6px 20px !important;
+		}
+		
+		.jx-evont-plan-section-2 .plan-column {
+			height:100% !important;
+		}
+		
+		.jx-evont-plan-section-2 .standard-column {
+			height:100% !important;
+		}
+		
+		
+		
+		
+		
+
+		
+
+
+
+	}
 	
 /* #Tablet (Portrait)
 ================================================== */
@@ -392,21 +451,7 @@
 		.retina-logo{display:block !important; }
 		.standard-logo{display:none !important; }
 		
-		#menu-item-22187{
-			display:none;
-		}
-		#menu-item-14597{
-			display: none;
-		}
-		#menu-item-258{
-			display: none;
-		}
-		#menu-item-254{
-			display: none;
-		}
-		
-		
-		
+		.menu-main-menu-container {display: none !important;}
 		
 		.header .shopping-cart {
 			position: absolute !important;
@@ -565,9 +610,6 @@
 	/*===================================================
 		 BOXED WIDTH 
 	====================================================*/
-	#menu-item-23{
-			display: none;
-		}
 		
 		.retina-logo{display:block !important; }
 		.standard-logo{display:none !important; }
@@ -721,9 +763,6 @@
 ================================================== */
 	@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
 	
-	#menu-item-23{
-			display: none;
-		}
 		/*===================================================
 		 BOXED WIDTH 
 	====================================================*/
@@ -813,7 +852,7 @@
 		.retina-logo{display:block !important; }
 		.standard-logo{display:none !important; }
 		
-		
+		.menu-main-menu-container {display: none !important;}
 		
 		.header .shopping-cart {
     position: absolute !important;
@@ -1078,7 +1117,7 @@
 		.retina-logo{display:block !important; }
 		.standard-logo{display:none !important; }
 		
-		
+		.menu-main-menu-container {display: none !important;}
 		
 		.header .shopping-cart {
 			position: absolute !important;
@@ -1372,7 +1411,6 @@
 	}
 
 	@media only screen and (max-width: 840px) { 
-		
 	
 		.programs_item .left-side {
 			width: 320px !important;
@@ -1399,9 +1437,7 @@
 	@media only screen and (max-width: 480px) {
 
 
-#menu-item-23{
-			display: none;
-		}
+
 
 		
 		.jx-demo-list {
@@ -2213,9 +2249,6 @@
 	}
 		
 	@media only screen and (max-width: 320px) {
-		#menu-item-23{
-			display: none;
-		}
 		
 			.jx-demo-list {
 		display:none;
@@ -2280,9 +2313,6 @@
 	}
 
 	@media screen and (min-width: 1200px) {
-		#menu-item-23{
-			display: none;
-		}
 		.jx-evont-partner-logo-list .bottom-border{
 			margin-left: 245px !important;
 		}
@@ -2307,7 +2337,7 @@
 /* END Make the cart table responsive */
 
 @media (min-width:768px) and (max-width:991px) {
-			.jx-evont-menubar .menunav {
+		.jx-evont-menubar .menunav {
 		 margin-right:0
 		}
 		.jx-evont-widget-newsletter .jx-evont-form-wrapper input {
@@ -2350,9 +2380,6 @@
 
 
 @media (min-width:991px) and (max-width:1200px) {
-	#menu-item-23{
-			display: none;
-		}
 		.jx-evont-footer_address .spacer {
  margin-left:15px;
 }
@@ -2367,7 +2394,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-	
 	
 		.jx-demo-list {
 		display:none;
@@ -2604,11 +2630,6 @@
 	/* MOBILE PORTRAIT SIZE TO MOBILE LANDSCAPE SIZE (DEVICES AND BROWSERS)-------------- */
 	@media only screen and (max-width:479px) {
 		
-		#menu-item-23{
-			display: none;
-		}
-
-
 	.jx-demo-list {
 		display:none;
 	}
@@ -2737,9 +2758,6 @@
 	
 	    /* Note: Design for a width of 480px */ 
     @media only screen and (min-width: 480px) and (max-width: 767px) {
-    	#menu-item-23{
-			display: none;
-		}
 
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
 		width: 100% !important;
@@ -3493,9 +3511,6 @@
 
 	}
 @media screen and (max-width: 767px) {
-	#menu-item-23{
-			display: none;
-		}
 
 	/*===================================================
 		 BOXED WIDTH 
