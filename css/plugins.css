@@ -1,5 +1,5 @@
 /* CSS Document */
-.slabtexted .slabtext{display:-moz-inline-box;display:inline-block;white-space:nowrap}.slabtextinactive .slabtext{display:inline;white-space:normal;font-size:1em !important;letter-spacing:inherit !important;word-spacing:inherit !important;*letter-spacing:0 !important;*word-spacing:0 !important;}.slabtextdone .slabtext{display:block;line-height:0.9;}
+.slabtexted .slabtext{display:-moz-inline-box;display:inline-block;white-space:nowrap}.slabtextinactive .slabtext{display:inline;white-space:normal;font-size:1em !important;letter-spacing:inherit !important;word-spacing:inherit !important;letter-spacing:0 !important;word-spacing:0 !important;}.slabtextdone .slabtext{display:block;line-height:0.9;}
 /* Product Slider */
 /* Functional styling;
  * These styles are required for noUiSlider to function.
@@ -43,7 +43,7 @@
 .noUi-stacking + .noUi-origin {
 /* Fix stacking order in IE7, which incorrectly
    creates a new context for the origins. */
-	*z-index: -1;
+	z-index: -1;
 }
 .noUi-state-tap .noUi-origin {
 -webkit-transition: left 0.3s, top 0.3s;
@@ -150,15 +150,6 @@
 }
 /* Disabled state;
  */
-[disabled].noUi-connect,
-[disabled] .noUi-connect {
-	background: #B8B8B8;
-}
-[disabled] .noUi-handle {
-	cursor: not-allowed;
-}
-/* Select Combo */
-@CHARSET "UTF-8";
 .sbHolder{
 	font-family: raleway;
 	font-size: 14px;
